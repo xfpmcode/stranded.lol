@@ -1,4 +1,4 @@
-		local ReplicatedStorage = cloneref(game:GetService("ReplicatedStorage"));
+    local ReplicatedStorage = cloneref(game:GetService("ReplicatedStorage"));
 	local Players, Workspace, RS, Camera, HttpService, GuiService, VirtualInputManager, TweenService, CoreGui, Lighting, Uis, SoundService, LogService = game:GetService("Players"), cloneref(game:GetService("Workspace")), cloneref(game:GetService("RunService")), cloneref(game:GetService("Workspace").CurrentCamera), cloneref(game:GetService("HttpService")), cloneref(game:GetService("GuiService")), cloneref(game:GetService("VirtualInputManager")), cloneref(game:GetService("TweenService")), cloneref(game:GetService("CoreGui")), cloneref(game:GetService("Lighting")), cloneref(game:GetService("UserInputService")), cloneref(game:GetService("SoundService")), cloneref(game:GetService("LogService"));
 	local Client, Mouse, GuiOffset = Players.LocalPlayer, Players.LocalPlayer:GetMouse(), GuiService:GetGuiInset().Y;
 	local Script = {Variables={InVoid=false,LastTickInVoid=0,RealPosition=nil,LastUserInput=0},Connections={},Desync={}};
@@ -12520,3 +12520,4 @@ end
 		library:init()
 
 	return library
+
